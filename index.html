@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon.Blog</title>
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container flex">
+            <div class="brand-and-toggler flex">
+                <a href="#" class="navbar-brand">
+                    <span>SE</span>.Blog
+                </a>
+                <button class="btn navbar-toggler-open" type="button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <div class="navbar-collapse">
+                <button class="btn navbar-toggler-close" type="button">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Featured</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Latest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Categories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <form action="" method="" class="search-block flex">
+                <input type="text" class="form-control" placeholder="Search this blog">
+                <button type="submit" class="btn">
+                    <i class="fas fa-search">Search</i>
+                </button>
+            </form>
+
+            <ul class="social-links flex">
+                <li class="flex">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="flex">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="flex">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="flex">
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="featured">
+            <div class="featured-item-list owl-carousel owl-theme">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="./assets/images/featured-img-1.jpg" alt="food truck">
+                        <span class="category-name">featured</span>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente corporis quis sunt. Soluta, deleniti.
+                            </h3>
+                            <p>Author: <span class="post-author">John Doe</span></p>
+                            <span class="published-date">March 10, 2021, 5:16pm</span>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="./assets/images/featured-img-2.jpg" alt="
+                        girl on a swing on the beach">
+                        <span class="category-name">featured</span>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente corporis quis sunt. Soluta, deleniti.
+                            </h3>
+                            <p>Author: <span class="post-author">John Doe</span></p>
+                            <span class="published-date">March 10, 2021, 5:16pm</span>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="./assets/images/featured-img-3.jpg" alt="stage sound equipment">
+                        <span class="category-name">featured</span>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente corporis quis sunt. Soluta, deleniti.
+                            </h3>
+                            <p>Author: <span class="post-author">John Doe</span></p>
+                            <span class="published-date">March 10, 2021, 5:16pm</span>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="./assets/images/featured-img-4.jpg" alt="night view">
+                        <span class="category-name">featured</span>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente corporis quis sunt. Soluta, deleniti.
+                            </h3>
+                            <p>Author: <span class="post-author">John Doe</span></p>
+                            <span class="published-date">March 10, 2021, 5:16pm</span>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Main Content -->
+    <main>
+        <!-- Latest Section -->
+        <section id="latest" class="py-3">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>latest</h2>
+                </div>
+
+                <div class="latest-item-list">
+                    <article class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/latest-img-1.jpg" alt="chart">
+                            <span class="category-name">popular</span>
+                        </div>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </h3>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/latest-img-2.jpg" alt="computer workshop">
+                            <span class="category-name">popular</span>
+                        </div>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </h3>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/latest-img-3.jpg" alt="breakfast">
+                            <span class="category-name">popular</span>
+                        </div>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </h3>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/latest-img-4.jpg" alt="jumping woman">
+                            <span class="category-name">popular</span>
+                        </div>
+                        <div class="item-info">
+                            <h3 class="post-title">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            </h3>
+                            <a href="#" class="post-btn">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- End of Latest Section  -->
+
+        <!-- Popular Section -->
+        <section id="popular" class="py-3">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Popular</h2>
+                </div>
+                <div class="popular-division">
+                    <div class="popular-item-list">
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-1.jpg" alt="typing">
+                                <span class="category-name">latest</span>
+                            </div>
+                            <div class="item-info">
+                                <h3 class="post-title">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                </h3>
+                                <p class="post-author-div flex">
+                                    <img src="./assets/images/author-img-1.jpg" alt="woman with coffee">
+                                    <span class="post-author">Jane Doe</span>
+                                    <span class="published-date">March 10, 2021, 5:16 pm</span>
+                                </p>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam qui, repellendus laborum nam quasi voluptate vero, sit rerum maxime eos praesentium consectetur. Dignissimos quod corrupti facilis nulla exercitationem! Quam, ipsum?
+                                </p>
+                                <a href="#" class="post-btn">Read More</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-2.jpg" alt="Stained glass">
+                                <span class="category-name">latest</span>
+                            </div>
+                            <div class="item-info">
+                                <h3 class="post-title">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                </h3>
+                                <p class="post-author-div flex">
+                                    <img src="./assets/images/author-img-2.jpg" alt="
+                                    smiling woman">
+                                    <span class="post-author">Jane Doe</span>
+                                    <span class="published-date">March 10, 2021, 5:16 pm</span>
+                                </p>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam qui, repellendus laborum nam quasi voluptate vero, sit rerum maxime eos praesentium consectetur. Dignissimos quod corrupti facilis nulla exercitationem! Quam, ipsum?
+                                </p>
+                                <a href="#" class="post-btn">Read More</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-3.jpg" alt="woman taking pictures">
+                                <span class="category-name">latest</span>
+                            </div>
+                            <div class="item-info">
+                                <h3 class="post-title">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                </h3>
+                                <p class="post-author-div flex">
+                                    <img src="./assets/images/author-img-3.jpg" alt="smiling man">
+                                    <span class="post-author">Jane Doe</span>
+                                    <span class="published-date">March 10, 2021, 5:16 pm</span>
+                                </p>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam qui, repellendus laborum nam quasi voluptate vero, sit rerum maxime eos praesentium consectetur. Dignissimos quod corrupti facilis nulla exercitationem! Quam, ipsum?
+                                </p>
+                                <a href="#" class="post-btn">Read More</a>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-4.jpg" alt="coastal road">
+                                <span class="category-name">latest</span>
+                            </div>
+                            <div class="item-info">
+                                <h3 class="post-title">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing.
+                                </h3>
+                                <p class="post-author-div flex">
+                                    <img src="./assets/images/author-img-4.jpg" alt="bright smiling woman">
+                                    <span class="post-author">Jane Doe</span>
+                                    <span class="published-date">March 10, 2021, 5:16 pm</span>
+                                </p>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam qui, repellendus laborum nam quasi voluptate vero, sit rerum maxime eos praesentium consectetur. Dignissimos quod corrupti facilis nulla exercitationem! Quam, ipsum?
+                                </p>
+                                <a href="#" class="post-btn">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="popular-item-list">
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-6.jpg" alt="
+                                girl in front of lights">
+                            </div>
+                            <div class="item-info">
+                                <a href="#" class="post-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                <span class="published-date">March 10, 2021, 5:16pm</span>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-7.jpg" alt="California Av">
+                            </div>
+                            <div class="item-info">
+                                <a href="#" class="post-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                <span class="published-date">March 10, 2021, 5:16pm</span>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-8.jpg" alt="vietnam red lantern">
+                            </div>
+                            <div class="item-info">
+                                <a href="#" class="post-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                <span class="published-date">March 10, 2021, 5:16pm</span>
+                            </div>
+                        </article>
+
+                        <article class="item">
+                            <div class="item-img">
+                                <img src="./assets/images/popular-img-9.jpg" alt="desk laptop">
+                            </div>
+                            <div class="item-info">
+                                <a href="#" class="post-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                <span class="published-date">March 10, 2021, 5:16pm</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Popular Section -->
+
+        <!-- Categories Section -->
+        <section id="categories" class="py-3">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Categories</h2>
+                </div>
+                <div class="categories-item-list owl-theme owl-carousel">
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/category-img-1.jpg" alt="belongings">
+                            <a href="#" class="category-name">Gadgets</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/category-img-2.jpg" alt="woman making a video call">
+                            <a href="#" class="category-name">lifestyle</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/category-img-3.jpg" alt="man looking at chart">
+                            <a href="#" class="category-name">business</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/category-img-4.jpg" alt="village">
+                            <a href="#" class="category-name">travel</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/category-img-5.jpg" alt="
+                            coastal city">
+                            <a href="#" class="category-name">nature</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-img">
+                            <img src="./assets/images/category-img-6.jpg" alt="things in the bag">
+                            <a href="#" class="category-name">fashion</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of Categories Section -->
+    </main>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-item">
+                <a href="#" class="navbar-brand"><span>SE</span>.Blog</a>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis odio itaque, dolore molestiae laborum quae iste dolor, magni deserunt quisquam libero suscipit accusamus, quod ab impedit. Nisi architecto accusantium ipsum.
+                </p>
+                <span><i class="fab fa-github"></i> https://github.com/5ahexn</span>
+            </div>
+
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-item">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Nature</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Life Style</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Fashion</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- jQuery js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Owl Carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- Prefix Free -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!-- Main JavaScript -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
